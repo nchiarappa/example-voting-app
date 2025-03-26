@@ -4,7 +4,7 @@ env:
     IMAGE_NAME: "result"
     IMAGE_TAG: "result"
     DOCKERFILE_CONTEXT: "result/"
-name: Build, scan and push Vote
+name: Build, scan and push Result
 on: [push, pull_request]
 
 jobs:
